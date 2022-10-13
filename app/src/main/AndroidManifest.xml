@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.marathidevelopers.livedarshan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LiveDarshan"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:exported="true"
+        tools:targetApi="n">
+
+
+
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Timings" />
+        <activity android:name=".MoreApps" />
+        <activity android:name=".Aarti_vitthal" />
+        <activity android:name=".Aarti_ujjain" />
+        <activity android:name=".Aarti_tuljapur" />
+        <activity android:name=".Aarti_somnath" />
+        <activity android:name=".Aarti_saptshrungi" />
+        <activity android:name=".Aarti_saibaba" />
+        <activity android:name=".Aarti_mahalakshmi" />
+        <activity android:name=".Aarti_krishna" />
+        <activity android:name=".Aarti_kashi" />
+        <activity android:name=".Aarti_jyotiba" />
+        <activity android:name=".Aarti_ganpati" />
+        <activity android:name=".Aarti_shanidev" />
+        <activity android:name=".Aarti" />
+        <activity android:name=".Dagdusheth" />
+        <activity android:name=".Shanidev" />
+        <activity android:name=".Ujjain" />
+        <activity android:name=".Saptshrungi" />
+        <activity android:name=".Kashi" />
+        <activity android:name=".Jyotiba" />
+        <activity android:name=".Iscon" />
+        <activity android:name=".Siddhivinayak" />
+        <activity android:name=".Somnath" />
+        <activity android:name=".Tuljapur" />
+        <activity android:name=".Mahalakshmi" />
+        <activity android:name=".Vitthal" />
+        <activity android:name=".SaiBaba" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1377860862425769~5060056349" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

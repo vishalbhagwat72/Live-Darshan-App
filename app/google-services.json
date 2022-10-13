@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "902515875761",
+    "project_id": "live-darshan-959f1",
+    "storage_bucket": "live-darshan-959f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902515875761:android:f6481b8d7fdce02366e790",
+        "android_client_info": {
+          "package_name": "com.marathidevelopers.livedarshan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902515875761-nv8meqhdtegpd33e6qfqireo27lqd16f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marathidevelopers.livedarshan",
+            "certificate_hash": "09eca644231ea68e79849a7d2493c4aa40a100a5"
+          }
+        },
+        {
+          "client_id": "902515875761-460cor8t63e1frk0t4r2rtnf1i4g40ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7OWXPAGXM5GTUKkP7xlXi2zKi2rKZTro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902515875761-460cor8t63e1frk0t4r2rtnf1i4g40ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
