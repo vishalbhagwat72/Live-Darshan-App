@@ -32,7 +32,7 @@ public class Shanidev extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         shanidev  = (WebView)findViewById(R.id.shanidev);
-        shanidev.loadUrl("https://marathitimeline.github.io/darshan/");
+        shanidev.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/index.html");
         shanidev.setWebViewClient(new Shanidev.Client());
         shanidev.setWebChromeClient(new Shanidev.Mychrome());
         WebSettings ws = shanidev.getSettings();

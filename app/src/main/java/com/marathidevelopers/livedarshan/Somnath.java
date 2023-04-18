@@ -33,7 +33,7 @@ public class Somnath extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         somnath= (WebView)findViewById(R.id.somnath);
-        somnath.loadUrl("https://marathitimeline.github.io/darshan/som.html");
+        somnath.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/som.html");
         somnath.setWebViewClient(new Somnath.Client());
         somnath.setWebChromeClient(new Somnath.Mychrome());
         WebSettings ws = somnath.getSettings();

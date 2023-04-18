@@ -44,7 +44,7 @@ public class Vitthal extends AppCompatActivity {
 
 
         vitthal= (WebView)findViewById(R.id.vitthal);
-        vitthal.loadUrl("https://apigw.jio.ril.com/hlsplayer/?w=676&h=380&url=https://rcpems02.jio.ril.com/videofeed.cdn.ril.com/LordShri_Vitthal/LordShri_Vitthal_400.m3u8?cdt=xfctPaVzwnj1-V2VZ6Nrtg&exp=1590000000");
+        vitthal.loadUrl("https://vitthalrukminimandir.org/mobile-app/index.html");
         vitthal.setWebViewClient(new Vitthal.Client());
         vitthal.setWebChromeClient(new Vitthal.Mychrome());
         WebSettings ws = vitthal.getSettings();

@@ -32,7 +32,7 @@ public class Iscon extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         iscon= (WebView)findViewById(R.id.iscon);
-        iscon.loadUrl("https://vrindavan.tv/isconrw11/");
+        iscon.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/iscon.html");
         iscon.setWebViewClient(new Iscon.Client());
         iscon.setWebChromeClient(new Iscon.Mychrome());
         WebSettings ws = iscon.getSettings();

@@ -32,7 +32,7 @@ public class Dagdusheth extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         dagdu= (WebView)findViewById(R.id.dagdu);
-        dagdu.loadUrl("https://apigw.jio.ril.com/hlsplayer/?w=300&h=300&url=https://rcpems02.jio.ril.com/videofeed.cdn.ril.com/Dagdusheth_Pune/Dagdusheth_Pune_600.m3u8?cdt=ld9mx1QCVFS8sqls8x1rug&exp=1560000000");
+        dagdu.loadUrl("https://www.dagdushethganpati.com/live-darshan-01/");
         dagdu.setWebViewClient(new Dagdusheth.Client());
         dagdu.setWebChromeClient(new Dagdusheth.Mychrome());
         WebSettings ws = dagdu.getSettings();

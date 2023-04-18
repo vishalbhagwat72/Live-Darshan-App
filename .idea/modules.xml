@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Live_Darshan.iml" filepath="$PROJECT_DIR$/.idea/modules/Live_Darshan.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Live_Darshan.app.unitTest.iml" />
     </modules>
   </component>
 </project>

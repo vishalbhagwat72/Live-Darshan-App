@@ -33,7 +33,7 @@ public class Saptshrungi extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         sapta= (WebView)findViewById(R.id.sapta);
-        sapta.loadUrl("https://marathitimeline.github.io/darshan/sapt.html");
+        sapta.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/sapt.html");
         sapta.setWebViewClient(new Saptshrungi.Client());
         sapta.setWebChromeClient(new Saptshrungi.Mychrome());
         WebSettings ws = sapta.getSettings();

@@ -41,23 +41,22 @@
         android:shadowColor="#0E0E0E"
         android:text="।। लाईव्ह देव दर्शन ।।"
         android:textColor="#BC35D3"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/textlive3"
         android:layout_width="match_parent"
-        android:layout_height="43dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textlive2"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="139dp"
-        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/architects_daughter"
         android:gravity="center"
-        android:shadowColor="#0E0E0E"
-        android:text="Developed By:- Vishal &amp; Niranjan"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        />
+        android:text="©Vishal Bhagwat"
+        android:textColor="#2A2A2B"
+        android:textSize="16sp" />
 
 
 </RelativeLayout>

@@ -32,7 +32,7 @@ public class Mahalakshmi extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         mahalakshmi= (WebView)findViewById(R.id.mahalakshmi);
-        mahalakshmi.loadUrl("https://apigw.jio.ril.com/hlsplayer/?w=676&h=380&url=https://rcpems02.jio.ril.com/videofeed.cdn.ril.com/Ambabai_Temple/Ambabai_Temple_600.m3u8?cdt=l8oneTjOr-fQVBXyWUkEng&exp=1604000000");
+        mahalakshmi.loadUrl("https://www.mahalaxmikolhapur.com/shri-ambabai-mahalaxmi-live-darshan.php");
         mahalakshmi.setWebViewClient(new Mahalakshmi.Client());
         mahalakshmi.setWebChromeClient(new Mahalakshmi.Mychrome());
         WebSettings ws = mahalakshmi.getSettings();

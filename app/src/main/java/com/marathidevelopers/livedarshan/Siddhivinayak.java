@@ -32,7 +32,7 @@ public class Siddhivinayak extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         siddhivinayak= (WebView)findViewById(R.id.siddhivinayak);
-        siddhivinayak.loadUrl("https://marathitimeline.github.io/darshan/sid.html");
+        siddhivinayak.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/sid.html");
         siddhivinayak.setWebViewClient(new Siddhivinayak.Client());
         siddhivinayak.setWebChromeClient(new Siddhivinayak.Mychrome());
         WebSettings ws = siddhivinayak.getSettings();

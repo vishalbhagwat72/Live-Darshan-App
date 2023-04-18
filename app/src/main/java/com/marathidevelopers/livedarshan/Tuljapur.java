@@ -35,7 +35,7 @@ public class Tuljapur extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         tuljapur= (WebView)findViewById(R.id.tuljapur);
-        tuljapur.loadUrl("https://apigw.jio.ril.com/osmanabad-player/?w=580&h=326&url=https://rcpems02.jio.ril.com/videofeed.cdn.ril.com/Tulja_Bhavani/Tulja_Bhavani_600.m3u8?cdt=ld9mx1QCVFS8sqls8x1rug&exp=1560000000");
+        tuljapur.loadUrl("https://osmanabad.gov.in/shri-tuljabhavani-tuljapur-live-darshan/");
         tuljapur.setWebViewClient(new Tuljapur.Client());
         tuljapur.setWebChromeClient(new Tuljapur.Mychrome());
         WebSettings ws = tuljapur.getSettings();

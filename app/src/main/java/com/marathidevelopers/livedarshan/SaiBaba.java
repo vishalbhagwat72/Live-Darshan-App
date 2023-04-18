@@ -33,7 +33,7 @@ public class SaiBaba extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         sai= (WebView)findViewById(R.id.saibaba);
-        sai.loadUrl("https://www.sai.org.in/en/sai-video-popup");
+        sai.loadUrl("https://www.sai.org.in/node/504");
         sai.setWebViewClient(new SaiBaba.Client());
         sai.setWebChromeClient(new Mychrome());
         WebSettings ws = sai.getSettings();

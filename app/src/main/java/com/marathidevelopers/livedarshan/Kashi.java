@@ -32,7 +32,7 @@ public class Kashi extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         kashi= (WebView)findViewById(R.id.kashi);
-        kashi.loadUrl("https://marathitimeline.github.io/darshan/kas.html");
+        kashi.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/kas.html");
         kashi.setWebViewClient(new Kashi.Client());
         kashi.setWebChromeClient(new Kashi.Mychrome());
         WebSettings ws = kashi.getSettings();
