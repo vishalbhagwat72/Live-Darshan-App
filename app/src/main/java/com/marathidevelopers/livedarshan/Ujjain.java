@@ -33,7 +33,7 @@ public class Ujjain extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         ujjain  = (WebView)findViewById(R.id.ujjain);
-        ujjain.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/mah.html");
+        ujjain.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/maha.html");
         ujjain.setWebViewClient(new Ujjain.Client());
         ujjain.setWebChromeClient(new Ujjain.Mychrome());
         WebSettings ws = ujjain.getSettings();

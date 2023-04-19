@@ -45,17 +45,16 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textlive3"
+        android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textlive2"
+        android:layout_height="54dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="136dp"
-        android:layout_marginBottom="18dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginBottom="0dp"
         android:fontFamily="@font/architects_daughter"
         android:gravity="center"
         android:text="©Vishal Bhagwat"
-        android:textColor="#2A2A2B"
+        android:textColor="#3E3A3A"
         android:textSize="16sp" />
 
 
