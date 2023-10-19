@@ -13,15 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="292dp"
         android:layout_marginTop="120dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ganpati" />
+        android:src="@drawable/pnglogo" />
 
     <TextView
         android:id="@+id/textlive"
         android:layout_width="409dp"
         android:layout_height="78dp"
         android:layout_below="@+id/image22"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/poppins_medium"
         android:gravity="center"
         android:shadowColor="#0E0E0E"
@@ -35,7 +34,7 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/image22"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="75dp"
         android:fontFamily="@font/poppins_medium"
         android:gravity="center"
         android:shadowColor="#0E0E0E"
@@ -45,9 +44,8 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="129dp"
         android:layout_marginBottom="0dp"
@@ -55,7 +53,7 @@
         android:gravity="center"
         android:text="©Vishal Bhagwat"
         android:textColor="#3E3A3A"
-        android:textSize="16sp" />
+        android:textSize="17sp" />
 
 
 </RelativeLayout>

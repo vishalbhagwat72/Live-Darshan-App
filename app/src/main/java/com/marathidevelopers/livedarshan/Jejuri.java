@@ -1,13 +1,10 @@
 package com.marathidevelopers.livedarshan;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.webkit.WebChromeClient;
@@ -16,12 +13,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-
-public class Saptshrungi extends AppCompatActivity {
+public class Jejuri extends AppCompatActivity {
 
     WebView sapta;
 
@@ -29,13 +21,13 @@ public class Saptshrungi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_saptshrungi);
+        setContentView(R.layout.activity_jejuri);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         sapta= (WebView)findViewById(R.id.sapta);
-        sapta.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/sapt.html");
-        sapta.setWebViewClient(new Saptshrungi.Client());
-        sapta.setWebChromeClient(new Saptshrungi.Mychrome());
+        sapta.loadUrl("https://vishalbhagwat72.github.io/DarshanLinks/jejuri.html");
+        sapta.setWebViewClient(new Jejuri.Client());
+        sapta.setWebChromeClient(new Jejuri.Mychrome());
         WebSettings ws = sapta.getSettings();
         ws.setJavaScriptEnabled(true);
         ws.setAllowFileAccess(true);

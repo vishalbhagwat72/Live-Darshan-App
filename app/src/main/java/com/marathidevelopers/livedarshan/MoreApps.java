@@ -18,6 +18,6 @@ public class MoreApps extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         more= (WebView)findViewById(R.id.more);
-        more.loadUrl("https://play.google.com/store/apps/details?id=com.marathidevelopers.shirish");
+        more.loadUrl("https://play.google.com/store/apps/dev?id=7639115298975832359");
     }
 }

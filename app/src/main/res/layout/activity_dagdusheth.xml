@@ -5,10 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dagdusheth">
+    tools:context=".Dagdusheth"
+    android:orientation="vertical">
 
     <WebView
         android:id="@+id/dagdu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+
 </LinearLayout>

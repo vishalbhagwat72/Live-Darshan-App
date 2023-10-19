@@ -7,20 +7,38 @@
 
     <application
         android:allowBackup="true"
+        android:exported="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LiveDarshan"
-        android:largeHeap="true"
-        android:networkSecurityConfig="@xml/network_security_config"
-        android:exported="true"
         tools:targetApi="n">
-
-
-
-        <activity android:name=".SplashScreen"
+        <activity
+            android:name=".Ichapuran_Balaji"
+            android:exported="false" />
+        <activity
+            android:name=".Salasar_Balaji"
+            android:exported="false" />
+        <activity
+            android:name=".Govind_Devji"
+            android:exported="false" />
+        <activity
+            android:name=".Kashtabhanjan"
+            android:exported="false" />
+        <activity
+            android:name=".Pashupati"
+            android:exported="false" />
+        <activity
+            android:name=".Dwarka"
+            android:exported="false" />
+        <activity
+            android:name=".Pratishirdi"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +46,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".Timings" />
         <activity android:name=".MoreApps" />
         <activity android:name=".Aarti_vitthal" />
@@ -47,7 +65,7 @@
         <activity android:name=".Dagdusheth" />
         <activity android:name=".Shanidev" />
         <activity android:name=".Ujjain" />
-        <activity android:name=".Saptshrungi" />
+        <activity android:name=".Jejuri" />
         <activity android:name=".Kashi" />
         <activity android:name=".Jyotiba" />
         <activity android:name=".Iscon" />
@@ -56,12 +74,12 @@
         <activity android:name=".Tuljapur" />
         <activity android:name=".Mahalakshmi" />
         <activity android:name=".Vitthal" />
-        <activity android:name=".SaiBaba" />
-
+        <activity android:name=".SaiBaba" /> <!-- <activity android:name=".Pashupati" /> -->
+        <!-- <activity android:name=".Dwarka" /> -->
+        <!-- <activity android:name=".Pratishirdi" /> -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-1377860862425769~5060056349" />
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
